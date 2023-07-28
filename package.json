@@ -3,6 +3,12 @@
   "displayName": "Nimnus Color Theme",
   "description": "Some description. Will update it soon.",
   "version": "0.0.1",
+  "publisher": "yuriity",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuriity/nimnus"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
