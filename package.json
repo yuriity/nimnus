@@ -1,0 +1,26 @@
+{
+  "name": "nimnus",
+  "displayName": "Nimnus Color Theme",
+  "description": "Some description. Will update it soon.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nimnus Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nimnus-dark.json"
+      },
+      {
+        "label": "Nimnus Light",
+        "uiTheme": "vs",
+        "path": "./themes/nimnus-light.json"
+      }
+    ]
+  }
+}
