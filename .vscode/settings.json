@@ -459,6 +459,24 @@
     "[Nimnus Light]": {
       "textMateRules": [
         {
+          "name": "Markup Strikethrough",
+          "scope": [
+            "punctuation.definition.heading.markdown",
+            "punctuation.definition.bold.markdown",
+            "punctuation.definition.italic.markdown",
+            "punctuation.definition.link.title",
+            "punctuation.definition.constant",
+            "punctuation.definition.metadata.markdown",
+            "punctuation.definition.strikethrough.markdown",
+            "punctuation.definition.raw.markdown",
+            "punctuation.definition.markdown",
+            "fenced_code.block.language.markdown"
+          ],
+          "settings": {
+            "foreground": "#78909c"
+          }
+        },
+        {
           "name": "diff: deleted",
           "scope": "markup.deleted",
           "settings": {
@@ -539,12 +557,12 @@
           "name": "Markup Strikethrough",
           "scope": ["markup.strikethrough.markdown"],
           "settings": {
-            "foreground": "#78909c"
+            "fontStyle": "strikethrough"
           }
         },
         {
           "name": "Markup Inline",
-          "scope": ["markup.inline.raw", "markup.fenced_code punctuation.definition.markdown"],
+          "scope": ["markup.inline.raw"],
           "settings": {
             "foreground": "#7600a8"
           }
