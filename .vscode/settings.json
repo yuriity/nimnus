@@ -433,29 +433,29 @@
   //   //"widget.shadow": "#000000"
   // },
   "editor.tokenColorCustomizations": {
-    // "[Nimnus Dark]": {
-    //   "textMateRules": [
-    //     {
-    //       "name": "embedded.expression",
-    //       "scope": "meta.embedded.expression.js",
-    //       "settings": {
-    //         // "foreground": "#2DDAFD"
-    //         "foreground": "#ff0000"
-    //       }
-    //     },
-    //     {
-    //       "name": "test",
-    //       "scope": [
-    //         "storage.type.generic.cs",
-    //         "storage.type.modifier.cs",
-    //         "storage.type.variable.cs"
-    //       ],
-    //       "settings": {
-    //         "foreground": "#00ff00"
-    //       }
-    //     }
-    //   ]
-    // },
+    "[Nimnus Dark]": {
+      "textMateRules": [
+        {
+          "name": "embedded.expression",
+          "scope": "meta.embedded.expression.js",
+          "settings": {
+            // "foreground": "#2DDAFD"
+            "foreground": "#ff0000"
+          }
+        },
+        {
+          "name": "test",
+          "scope": [
+            "storage.type.generic.cs",
+            "storage.type.modifier.cs",
+            "storage.type.variable.cs"
+          ],
+          "settings": {
+            "foreground": "#00ff00"
+          }
+        }
+      ]
+    },
     "[Nimnus Light]": {
       "textMateRules": [
         //   {
