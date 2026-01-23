@@ -57,7 +57,7 @@
     "editor.background": "#232834",
     "editor.foreground": "#D4D4D4",
     "editor.lineHighlightBackground": "#313848",
-    "editor.inactiveSelectionBackground": "#3a3d41cd",
+    "editor.inactiveSelectionBackground": "#3A3D41cd",
     "editor.selectionHighlightBackground": "#ADD6FF26",
     "editorIndentGuide.background1": "#404040",
     "editorLineNumber.activeForeground": "#c2c2c2",
@@ -140,7 +140,7 @@
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#BAE67E"
+        "foreground": "#ffcc66"
       }
     },
     {
@@ -157,7 +157,7 @@
       "name": "Number",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#9FA8DA"
+        "foreground": "#d4d4d4"
       }
     },
     {
@@ -233,7 +233,7 @@
       "name": "Operator Assignment and Arithmetic",
       "scope": ["keyword.operator.assignment", "keyword.operator.arithmetic"],
       "settings": {
-        "foreground": "#D4D4D4"
+        "foreground": "#FFE6B3"
       }
     },
     {
@@ -245,7 +245,7 @@
         "keyword.operator.sizeof"
       ],
       "settings": {
-        "foreground": "#03A9F4"
+        "foreground": "#FFE6B3"
       }
     },
     {
@@ -279,7 +279,7 @@
       "name": "Control flow keywords",
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#FF8F40"
+        "foreground": "#ffe6b3"
       }
     },
     {
@@ -306,7 +306,7 @@
       "name": "Storage",
       "scope": "storage",
       "settings": {
-        "foreground": "#03A9F4"
+        "foreground": "#9fa8da"
       }
     },
     {
@@ -373,7 +373,7 @@
         "source.python meta.function-call.generic"
       ],
       "settings": {
-        "foreground": "#FFCC66"
+        "foreground": "#BAE67E"
       }
     },
     {
@@ -387,7 +387,7 @@
       "name": "Razor directive page",
       "scope": "meta.directive.page",
       "settings": {
-        "foreground": "#BAE67E"
+        "foreground": "#d4d4d4"
       }
     },
     {
