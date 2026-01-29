@@ -138,7 +138,7 @@
     },
     {
       "name": "String",
-      "scope": "string",
+      "scope": ["string", "storage.type.string.python"],
       "settings": {
         "foreground": "#ffcc66"
       }
@@ -214,7 +214,7 @@
     },
     {
       "name": "Keyword",
-      "scope": "keyword",
+      "scope": ["keyword", "storage.type.class", "storage.type.function"],
       "settings": {
         "foreground": "#03A9F4"
       }
@@ -338,6 +338,22 @@
       ],
       "settings": {
         "fontStyle": "bold",
+        "foreground": "#95E6CB"
+      }
+    },
+    {
+      "name": "Primitive types",
+      "scope": [
+        "storage.type.boolean.go",
+        "storage.type.byte.go",
+        "storage.type.numeric.go",
+        "storage.type.rune.go",
+        "storage.type.error.go",
+        "storage.type.string.go",
+        "support.type.primitive.ts"
+      ],
+      "settings": {
+        // "fontStyle": "italic",
         "foreground": "#95E6CB"
       }
     },

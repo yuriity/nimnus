@@ -21,6 +21,7 @@ class SideBarDuplicateCommand(SideBarCommand):
     def run(self, paths, **kwargs):
         source = self.get_path(paths, **kwargs)
         base, leaf = os.path.split(source)
+        print(f"Searching for: {base}")
 
         # find the file extension
         name, ext = os.path.splitext(leaf)
