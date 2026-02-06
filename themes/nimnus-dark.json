@@ -90,30 +90,6 @@
   },
   "tokenColors": [
     {
-      "name": "Object literals",
-      "scope": [
-        "meta.objectliteral punctuation.definition.block",
-        "punctuation.definition.dict",
-        "punctuation.definition.dictionary.begin.json",
-        "punctuation.definition.dictionary.end.json"
-      ],
-      "settings": {
-        "foreground": "#FFFF00"
-      }
-    },
-    // {
-    //   "name": "Array literals",
-    //   "scope": [
-    //     "meta.array.literal meta.brace.square",
-    //     "punctuation.definition.list",
-    //     "punctuation.definition.array.begin.json",
-    //     "punctuation.definition.array.end.json"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#18FFFF"
-    //   }
-    // },
-    {
       "name": "Neutral foreground",
       "scope": ["support.other.variable", "meta.function.misc"],
       "settings": {
@@ -140,7 +116,7 @@
       "name": "String",
       "scope": ["string", "storage.type.string.python"],
       "settings": {
-        "foreground": "#ffcc66"
+        "foreground": "#ffaa8a"
       }
     },
     {

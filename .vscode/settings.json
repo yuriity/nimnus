@@ -505,7 +505,7 @@
           "name": "String",
           "scope": ["string", "storage.type.string.python"],
           "settings": {
-            "foreground": "#ffcc66"
+            "foreground": "#ffaa8a"
           }
         },
         {
