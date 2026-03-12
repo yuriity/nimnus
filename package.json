@@ -2,7 +2,7 @@
   "name": "nimnus",
   "displayName": "Nimnus Color Theme",
   "description": "Some description. Will update it soon.",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "publisher": "yuriity",
   "license": "SEE LICENSE IN LICENSE.md",
   "repository": {
@@ -10,7 +10,7 @@
     "url": "https://github.com/yuriity/nimnus"
   },
   "engines": {
-    "vscode": "^1.80.0"
+    "vscode": "^1.110.0"
   },
   "categories": [
     "Themes"
@@ -21,6 +21,11 @@
         "label": "Nimnus Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/nimnus-dark.json"
+      },
+      {
+        "label": "Nimnus Dark Modern",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nimnus-dark-modern.json"
       },
       {
         "label": "Nimnus Light",
