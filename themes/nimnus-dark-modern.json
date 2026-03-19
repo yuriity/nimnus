@@ -200,14 +200,14 @@
 		{
 			"scope": "markup.bold",
 			"settings": {
-				"foreground": "#4fc1ff",
+				"foreground": "#9cdcfe",
 				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": "markup.heading",
 			"settings": {
-				"foreground": "#4fc1ff",
+				"foreground": "#4ec9b0",
 				"fontStyle": "bold"
 			}
 		},
@@ -221,19 +221,20 @@
 		{
 			"scope": "markup.strikethrough",
 			"settings": {
+				"foreground": "#f44747",
 				"fontStyle": "strikethrough"
 			}
 		},
 		{
 			"scope": "markup.inserted",
 			"settings": {
-				"foreground": "#B5CEA8"
+				"foreground": "#bae67e"
 			}
 		},
 		{
 			"scope": "markup.deleted",
 			"settings": {
-				"foreground": "#FFAA8A"
+				"foreground": "#f44747"
 			}
 		},
 		{
