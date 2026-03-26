@@ -1,5 +1,7 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+default-themes/**
 tests/**
 vsc-extension-quickstart.md
+Publishing.md
