@@ -2,11 +2,15 @@
   "workbench.colorTheme": "Nimnus Dark",
   "workbench.settings.editor": "json",
   "workbench.settings.useSplitJSON": false,
-  "workbench.colorCustomizations": {
+  "workbench.colorCustomizations": {},
+  "[csharp]": {
+    // "editor.semanticHighlighting.enabled": false,
   },
   "editor.semanticTokenColorCustomizations": {
     "[Nimnus Dark]": {
-      "rules": {}
+      "rules": {
+        // "keyword": "#ff0011"
+      }
     }
   },
   "editor.tokenColorCustomizations": {

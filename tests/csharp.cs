@@ -28,6 +28,15 @@ namespace Abp.MemoryDb.Repositories
 
     public Class1()
     {
+      if (DateTime.Today is not DayOfWeek.Sunday)
+      {
+        throw new Exception("I'm working only on Sunday!");
+      }
+      else if (DateTime.Today == DayOfWeek.Monday)
+      {
+        throw new Exception("Monday is a hard day!");
+      }
+
       Console.WriteLine($"stringField: {stringField}, intField: {intField} test\n");
       intField = (int) Colors.Red;
     }
@@ -39,6 +48,26 @@ namespace Abp.MemoryDb.Repositories
       var piDigital = 3.14;
 
       Console.WriteLine(piDigital);
+    }
+
+    public void Foo()
+    {
+      // Examples of all C# primitive types
+      bool boolValue = true;
+      byte byteValue = 255;
+      sbyte sbyteValue = -128;
+      char charValue = 'A';
+      decimal decimalValue = 123.45m;
+      double doubleValue = 3.14159;
+      float floatValue = 2.718f;
+      int intValue = 42;
+      uint uintValue = 42u;
+      long longValue = 1234567890L;
+      ulong ulongValue = 1234567890UL;
+      short shortValue = -32768;
+      ushort ushortValue = 65535;
+      string stringValue = "Hello, world!";
+      object objectValue = new object();
     }
 
     public void SayHello(string name)

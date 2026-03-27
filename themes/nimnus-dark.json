@@ -2,10 +2,10 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Nimnus Dark",
   "type": "dark",
-  "semanticHighlighting": false,
+  "semanticHighlighting": true,
   // "semanticTokenColors": {
   //   "operator": "#D4D4D4",
-  //   "keyword": "#03a9f4"
+  //   "string": "#ff0000",
   // },
   "colors": {
     "button.background": "#097bed",
@@ -71,7 +71,7 @@
     "editorBracketHighlight.foreground3": "#FFD700",
     "editorBracketHighlight.foreground4": "#35cdff",
     "editorBracketHighlight.foreground5": "#DA70D6",
-    "editorBracketHighlight.foreground6": "#84ad47",
+    "editorBracketHighlight.foreground6": "#91be4e",
     "editorBracketHighlight.unexpectedBracket.foreground": "#FF0000",
     "editorBracketPairGuide.background1": "#ffffff10",
     "editorBracketPairGuide.activeBackground1": "#ffffff30",
@@ -146,7 +146,7 @@
       "name": "Number",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#d4d4d4"
+        "foreground": "#c5ddb8"
       }
     },
     {
@@ -205,9 +205,15 @@
       "name": "Keywords",
       "scope": [
         "keyword",
+        "keyword.operator.new",
+        "keyword.operator.expression",
+        "keyword.operator.cast",
+        "keyword.operator.sizeof",
+        "storage.type",
         "storage.type.accessor",
         "storage.type.class",
         "storage.type.function",
+        "keyword.type.void",
         "storage.modifier"
       ],
       "settings": {
@@ -226,34 +232,23 @@
     },
     {
       "name": "Operator Assignment and Arithmetic",
-      "scope": ["keyword.operator.assignment", "keyword.operator.arithmetic"],
-      "settings": {
-        "foreground": "#D4D4D4"
-      }
-    },
-    {
-      "name": "Operators",
       "scope": [
-        "keyword.operator.new",
-        "keyword.operator.expression",
-        "keyword.operator.cast",
-        "keyword.operator.sizeof"
+        "keyword.operator",
+        "keyword.operator.expression.pattern"
       ],
       "settings": {
         "foreground": "#D4D4D4"
       }
     },
-    {
-      "name": "Operators Logical",
-      "scope": [
-        "keyword.operator.logical",
-        "keyword.operator.relational",
-        "keyword.operator.comparison."
-      ],
-      "settings": {
-        "foreground": "#FFE6B3"
-      }
-    },
+    // {
+    //   "name": "Operators Logical",
+    //   "scope": [
+    //     "keyword.control.pattern",
+    //   ],
+    //   "settings": {
+    //     "foreground": "#FFE6B3"
+    //   }
+    // },
     {
       "name": "Operator Arrow",
       "scope": ["keyword.operator.arrow.cs", "storage.type.function.arrow"],
@@ -299,29 +294,30 @@
     {
       "name": "Types declaration and references",
       "scope": [
-        "meta.directive.implements",
-        "meta.directive.inject",
-        "meta.return-type",
         "entity.name.type",
         "entity.name.class",
-        "storage.type.cs",
-        "storage.type.generic.cs",
-        "storage.type.modifier.cs",
-        "storage.type.variable.cs",
-        "storage.type.annotation.java",
-        "storage.type.generic.java",
-        "storage.type.java",
-        "storage.type.object.array.java",
-        "storage.type.primitive.array.java",
-        "storage.type.primitive.java",
-        "storage.type.token.java",
-        "storage.type.groovy",
-        "storage.type.annotation.groovy",
-        "storage.type.parameters.groovy",
-        "storage.type.generic.groovy",
-        "storage.type.object.array.groovy",
-        "storage.type.primitive.array.groovy",
-        "storage.type.primitive.groovy"
+        "entity.name.namespace",
+        // "meta.directive.implements",
+        // "meta.directive.inject",
+        // "meta.return-type",
+        // "storage.type.cs",
+        // "storage.type.generic.cs",
+        // "storage.type.modifier.cs",
+        // "storage.type.variable.cs",
+        // "storage.type.annotation.java",
+        // "storage.type.generic.java",
+        // "storage.type.java",
+        // "storage.type.object.array.java",
+        // "storage.type.primitive.array.java",
+        // "storage.type.primitive.java",
+        // "storage.type.token.java",
+        // "storage.type.groovy",
+        // "storage.type.annotation.groovy",
+        // "storage.type.parameters.groovy",
+        // "storage.type.generic.groovy",
+        // "storage.type.object.array.groovy",
+        // "storage.type.primitive.array.groovy",
+        // "storage.type.primitive.groovy"
       ],
       "settings": {
         "fontStyle": "bold",
@@ -331,6 +327,7 @@
     {
       "name": "Primitive types",
       "scope": [
+        "keyword.type",
         "storage.type.boolean.go",
         "storage.type.byte.go",
         "storage.type.numeric.go",
