@@ -2,21 +2,18 @@
   "workbench.colorTheme": "Nimnus Dark",
   "workbench.settings.editor": "json",
   "workbench.settings.useSplitJSON": false,
-  "workbench.colorCustomizations": {},
+  "workbench.colorCustomizations": {
+    "[Nimnus Dark]": {
+      // "editorBracketHighlight.foreground1": "#ff0606"
+      // "keyword": "#ff0011"
+    }
+  },
   "[csharp]": {
     // "editor.semanticHighlighting.enabled": false,
   },
-  "editor.semanticTokenColorCustomizations": {
-    "[Nimnus Dark]": {
-      "rules": {
-        // "keyword": "#ff0011"
-      }
-    }
-  },
   "editor.tokenColorCustomizations": {
     "[Nimnus Dark]": {
-      "textMateRules": [
-      ]
+      "textMateRules": []
     },
     "[Nimnus Light]": {
       "textMateRules": []
